@@ -5,6 +5,7 @@
     position: relative;
     display: inline-block;
 }
+
 .nav-link:after {
     content: "";
     opacity: 0;
@@ -16,9 +17,11 @@
     top: 100%;
     left: 0;
 }
+
 .nav-link:hover {
     transform: scale(1.2);
 }
+
 .nav-link:hover:after {
     opacity: 1;
 }
