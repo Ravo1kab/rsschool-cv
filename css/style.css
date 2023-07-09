@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,7 +52,13 @@ div {
     border-radius: 50%;
 }
 
-.contacts, .summary, .skills, .code, .work, .education, .english {
+.contacts,
+.summary,
+.skills,
+.code,
+.work,
+.education,
+.english {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +88,13 @@ div {
     margin-left: 300px;
 }
 
-.contacts_left, .summary_left, .skills_left, .code_left, .work_left, .education_left, .english_left {
+.contacts_left,
+.summary_left,
+.skills_left,
+.code_left,
+.work_left,
+.education_left,
+.english_left {
     width: 30%;
     text-align: center;
     margin-right: 10px;
@@ -95,7 +108,13 @@ div {
     font-family: 'Comic Sans MS', cursive;
 }
 
-.contacts_right, .summary_right, .skills_right, .code_right, .work_right, .education_right, .english_right {
+.contacts_right,
+.summary_right,
+.skills_right,
+.code_right,
+.work_right,
+.education_right,
+.english_right {
     width: 75%;
     text-align: justify;
     border: 2px solid rgb(58, 58, 54);
@@ -117,7 +136,7 @@ div {
     display: flex;
     flex-wrap: wrap;
 }
-  
+
 .footer {
     display: flex;
     align-items: center;
@@ -153,6 +172,6 @@ div {
 
 @media (max-width: 768px) {
     .section {
-      width: 100%;
+        width: 100%;
     }
 }
