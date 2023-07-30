@@ -285,3 +285,93 @@ h2 {
     background-color: #000000;
     border-radius: 50%;
 }
+
+.picks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 240px;
+    row-gap: 0;
+}
+
+.picks_bg {
+    position: relative;
+    width: 550px;
+    height: 555px;
+    border: 1px solid #0C0C0E;
+    background: #FFFFFF;
+    margin: 40px 0 0 20px;
+    box-sizing: border-box;
+}
+
+.title_picks {
+    color: #000000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 15px 0 0 20px;
+}
+
+.line_picks {
+    width: 60px;
+    height: 1px;
+    background: #BB945F;
+    margin-left: 20px;
+}
+
+h3 {
+    color: #000000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 0 0 20px;
+}
+
+.text_picks {
+    width: 355px;
+    height: 320px;
+    color: #000000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 0 0 20px;
+}
+
+.picks_bg img {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 254px;
+    left: 389px;
+}
+
+.picks_bg button {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    border: 1px solid #0C0C0E;
+    border-radius: 2px;
+    color: #0C0C0E;
+    background: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    top: 510px;
+    left: 20px;
+    cursor: pointer;
+}
