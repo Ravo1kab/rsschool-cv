@@ -126,3 +126,84 @@ h1 {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
+.about {
+    width: 1440px;
+    height: 837px;
+    background: #FFFFFF;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 20px 0 0 0;
+}
+
+.about p {
+    color: #000000;
+    margin-top: 40px;
+}
+
+h2 {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.line {
+    background: #0C0C0E;
+    width: 50px;
+    height: 1px;
+    margin: 0 695px;
+}
+
+.about_img {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 560px;
+    margin-left: 20px;
+    gap: 25px;
+}
+
+.about_button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    height: 36px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    position: relative;
+}
+
+.about_slide {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #0C0C0E;
+    border: none;
+    cursor: pointer;
+}
+
+.about_slide:hover {
+    border: none;
+    border-radius: 50%;
+    background-color: #BB945F;
+    transition: 1.5s;
+}
+
+.about_slide:active,
+.about_slide:focus {
+    background-color: #BB945F;
+    outline: none;
+}
