@@ -559,3 +559,158 @@ h3 {
 .contacts_text_info a {
     font-weight: 400;
 }
+
+.library_card {
+    width: 1440px;
+    height: 594px;
+}
+
+.card_info {
+    display: inline-flex;
+    gap: 344px;
+}
+
+.find_card {
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.find_card p {
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.find_card_bg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+    background: #FFFFFF;
+}
+
+.search {
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #BB945F;
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 25px 20px;
+}
+
+.search label {
+    color: #000000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+}
+
+.search input {
+    display: flex;
+    width: 520px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0;
+    background: #FFFFFF;
+    margin-top: 25px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+::placeholder {
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+}
+
+.find_card_bg button {
+    display: block;
+    padding: 10px 40px;
+    align-items: flex-end;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 20px 179px 30px 179px;
+}
+
+.reader_card {
+    display: block;
+    gap: 35px;
+}
+
+.reader_card_title {
+    color: #000000;
+    text-align: right;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin: 40px 0 35px 0;
+}
+
+.reader_card_text {
+    width: 456px;
+    height: 120px;
+    color: #000000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    margin: 35px 0 35px 0;
+}
+
+.button_card {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.reader_card button {
+    display: inline-flex;
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
