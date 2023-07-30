@@ -375,3 +375,187 @@ h3 {
     left: 20px;
     cursor: pointer;
 }
+
+.coffee_shop, .our_contacts {
+    width: 1440px;
+    background: #FFFFFF;
+    padding: 0 20px 40px 20px;
+    margin: 0;
+}
+
+.title_coffee_shop, .title_our_contacts, .line {
+    display: block;
+    margin: auto;
+}
+
+.coffee_shop p {
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 40px 0 40px 0;
+}
+
+.coffee_and_tea_menu {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.coffee_and_tea_menu h2 {
+    color: #BB945F;
+    margin: 0;
+}
+
+.text_menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+}
+
+.coffee_and_tea_menu h3 {
+    width: 197px;
+    height: 40px;
+    color: #000000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.line_coffee_shop {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+}
+
+.coffee_and_tea_menu p {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.desserts_menu {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+    float: right;
+}
+
+.desserts_menu h2 {
+    color: #BB945F;
+    margin: 0;
+}
+
+.desserts_menu h3 {
+    color: #000000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.desserts_menu p {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.our_contacts {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contacts_info {
+    display: flex;
+    align-items: flex-start;
+    gap: 192px;
+    margin: 40px 0;
+}
+
+.title_contacts1 {
+    color: #000000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0 0 40px 0;
+}
+
+.contacts_text_info {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts_text {
+    color: #000000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.title_contacts2 {
+    color: #000000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 40px 0 20px 0;
+}
+
+.contacts_info img {
+    width: 696px;
+    height: 414px;
+}
+
+.contacts_bg a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.contacts_text_info a {
+    font-weight: 400;
+}
