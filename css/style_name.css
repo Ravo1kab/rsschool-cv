@@ -1,0 +1,73 @@
+.name {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.animated-word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.letter {
+    position: relative;
+    transition: 0.4s;
+    cursor: grab;
+    color: #fff;
+    filter: drop-shadow(5px 5px #333);
+}
+
+.letter:hover {
+    transform: translateY(-1rem);
+    background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(5px 5px #333);
+    background-size: 500% auto;
+    animation: textShine 2s ease-in-out infinite alternate;
+}
+
+.letter::after {
+    content: attr(data-letter);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 4px #333);
+    background-size: 500% auto;
+    animation: textShine 2s ease-in-out infinite alternate;
+    transform: scaleY(-1);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s;
+    filter: blur(4px);
+    animation-delay: 0.1s;
+}
+
+.letter:hover::after {
+    opacity: 1;
+    animation-delay: 0s;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
