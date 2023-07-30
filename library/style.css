@@ -12,3 +12,70 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 90px;
+    background-color: #0C0C0E;
+}
+
+.title_header {
+    width: 294px;
+    height: 50px;
+    margin: 20px 0 20px 20px;
+}
+
+h1 {
+    color: #FFFFFF;
+    width: 294px;
+    height: 50px;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.title_nav {
+    display: flex;
+    align-items: center;
+    width: 584px;
+    height: 50px;
+    margin-left: 454px;
+    margin-right: 40px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 584px;
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.icon_profile {
+    display: flex;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
