@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth; 
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
